@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(go build:*)",
+      "Bash(ls:*)",
+      "Bash(./scripts/fix-mysql.sh:*)",
+      "Bash(mysql:*)",
+      "Bash(./scripts/start-mysql-docker.sh:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(grep:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run test:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 10s npm start)",
+      "Bash(true)",
+      "Bash(timeout 10s go run cmd/main.go)",
+      "Bash(timeout:*)",
+      "Bash(go run:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(kill:*)",
+      "Bash(flatpak list:*)",
+      "Bash(flatpak run:*)",
+      "Bash(/home/ryan.rr.penn/Documents/Dev/GoProject/src/AutoUIPlatform/backend/scripts/chrome-flatpak-wrapper.sh:*)",
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
